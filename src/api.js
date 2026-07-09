@@ -1,6 +1,6 @@
 // Thin client for the FastAPI backend (see /backend).
 // Change this if your API runs somewhere other than localhost:8000.
-export const API_BASE = import.meta.env.VITE_API_BASE || "https://homerental-backend-3.onrender.com/api";
+export const API_BASE = import.meta.env.VITE_API_BASE || "https://homerental-backend-3.onrender.com";
 
 const TOKEN_KEY = "hr_token";
 
